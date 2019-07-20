@@ -192,7 +192,9 @@
       });
       function bc() {
         // alert("执行！");
-        $.get('<?php echo( admin_url( "admin-ajax.php" )) ?>', 'action=AO-PY&app1=' + $('#app1').val() + '&app1_A=' + $('#app1_A').val()+'app2=' + $('#app2').val() + '&app2_A=' + $('#app2_A').val(),
+        $.get('<?php echo( admin_url( "admin-ajax.php" )) ?>', 'action=AO-PY'+
+        '&app1=' + $('#app1').val() + '&app1_A=' + $('#app1_A').val()+
+        '&app2=' + $('#app2').val() + '&app2_A=' + $('#app2_A').val(),
           function (data) {
             layer.open({
               title: '保存状态'
