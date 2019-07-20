@@ -1,7 +1,7 @@
 {
     "name" : "AO-py",
-    "version" : "3.0",
-    "download_url" : "http://example.com/plugin-name-2.0.zip",
+    "version" : "3.1",
+    "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-py.zip",
     "sections" : {
         "description" : "不要更新此版本！！！！此版本为测试版本！！！"
     }
