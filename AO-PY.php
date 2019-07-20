@@ -32,6 +32,9 @@ add_action('wp_head', 'addjq');     //挂载addjq
 if (get_option('AOPYCONFIG')['app1']=='on') {                //是否启用功能1
     add_action('wp_head', 'addapp1');    //挂载功能1
 }
+if (get_option('AOPYCONFIG')['app2']=='on') {                //是否启用功能1
+    add_action('wp_head', 'addapp2');    //挂载功能1
+}
 
 
 
@@ -42,6 +45,8 @@ function AOPY_install(){                        //默认配置
     $pyconfig = array(
         'app1' => 'off',    //首页标签默认关闭
         'app1_A' => '',     //STYLE 自定义
+        'app2' => 'off',    //app2开关 和内容
+        'app2_A' =>'',
 
      );
 
@@ -79,6 +84,13 @@ function addapp1(){
 
 }
 //---------------------------------------------------------------------------
+function addapp2(){
+    // includes_url($path, $scheme)
+    include(plugin_dir_path(__FILE__ ).'/includes/app2.php');
+    // echo('<script src="'."></script>');
+
+}
+//---------------------------------------------------------------------------
 
 //不出我所料我实用这段代码频率不大，言外之意没啥吊用。
 function AOpyajax()
@@ -105,9 +117,12 @@ function AOAJAX(){
     $da = get_option('AOPUCONFIG');
     $app1=$_GET['app1'];
     $app1_A =$_GET['app1_A'];
-
+    $app2=$_GET['app1'];
+    $app2_A =$_GET['app1_A'];
     $da['app1'] = $app1;
     $da['app1_A'] = $app1_A;
+    $da['app2'] = $app2;
+    $da['app2_A'] = $app2_A;
     update_option('AOPYCONFIG', $da);
     echo($app1.$app1_A);
     wp_die();

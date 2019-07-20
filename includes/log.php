@@ -1,3 +1,15 @@
+<!-- ======================================================================================== -->
+<li class="layui-timeline-item">
+    <i class="layui-icon layui-timeline-axis"></i>
+    <div class="layui-timeline-content layui-text">
+        <h3 class="layui-timeline-title">2019年7月20日</h3>
+        <p>
+           APP2内容添加差不多了。
+           <br>
+           此功能或许可以使用，但是还在测试阶段，在这个日期。20日。
+        </p>
+    </div>
+</li>
 
 <!-- ======================================================================================== -->
 <li class="layui-timeline-item">
@@ -7,7 +19,7 @@
         <p>
            APP2内容添加中。
            <br>
-           经验条
+           
         </p>
     </div>
 </li>
