@@ -3,7 +3,7 @@
 Plugin Name: AO-PY
 Plugin URI:	http://moeacg.xyz
 Description:  爱国Ao第三方扩展！。
-Version: 3.5.0
+Version: 4.5.0
 Author: 会做饭的二哈
 Author URI: mailto:baikaiwen12@outlook.com
 License: A "Slug" license name e.g. GPL2
