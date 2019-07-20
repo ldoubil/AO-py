@@ -1,6 +1,6 @@
 {
     "name" : "AO-py",
-    "version" : "3.2",
+    "version" : "3.5",
     "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-py.zip",
     "sections" : {
         "description" : "此版本为3.5<br>更新了一个小BUG<br>更新了会员颜色，但是不确定能否运行，但并不会影响功能1的使用！"
