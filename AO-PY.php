@@ -13,9 +13,9 @@ License: A "Slug" license name e.g. GPL2
 
 require (plugin_dir_path(__FILE__) .'/plugin-update-checker/plugin-update-checker.php');
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'http://example.com/path/to/details.json',
+	'https://raw.githubusercontent.com/ldoubil/AO-py/master/updata.json',
 	__FILE__, //Full path to the main plugin file or functions.php.
-	'unique-plugin-or-theme-slug'
+	'AO-py'
 );
 
 include(plugin_dir_path(__FILE__) .'./config.php'); //导入配置文件
