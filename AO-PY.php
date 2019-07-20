@@ -117,8 +117,8 @@ function AOAJAX(){
     $da = get_option('AOPUCONFIG');
     $app1=$_GET['app1'];
     $app1_A =$_GET['app1_A'];
-    $app2=$_GET['app1'];
-    $app2_A =$_GET['app1_A'];
+    $app2=$_GET['app2'];
+    $app2_A =$_GET['app2_A'];
     $da['app1'] = $app1;
     $da['app1_A'] = $app1_A;
     $da['app2'] = $app2;
