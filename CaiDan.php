@@ -115,7 +115,7 @@
                                             </blockquote>
                                             <blockquote class="layui-elem-quote">
                                               正确格式为：
-                                              用户组名:#000000;用户组名:#000000
+                                              用户组名:rgb(220,20,60);用户组名:rgb(220,20,60)
                                             </blockquote>
                                             <form class="layui-form" action="">
                                               <div class="layui-form-item">

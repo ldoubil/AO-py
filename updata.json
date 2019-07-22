@@ -1,8 +1,8 @@
 {
     "name" : "AO-py",
-    "version" : "4.5.2",
+    "version" : "4.5.3",
     "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-py.zip",
     "sections" : {
-        "description" : "测试版本"
+        "description" : "更新了小功能"
     }
 }

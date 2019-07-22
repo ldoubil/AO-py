@@ -3,13 +3,16 @@
 
     $(function () {
 
-        setTimeout(function () {
+       
+        var xh1 = setInterval("RW_APP2()",500);
+       
 
-            var text = new Array(); //哎当然先定义个数组
+        function RW_APP2() {
+            if ($('.inn-comment__container').length() >0) {
+                var text = new Array(); //哎当然先定义个数组
             // 在分割一下
             a = "<?php echo(get_option('AOPYCONFIG')['app2_A']);?>";
             text = a.split(";");
-
 
             for (var i = 0; i < text.length; i++) {
                 b = text[i];
@@ -22,14 +25,14 @@
                         }
                     }
                 );
-
-
-
             }
+                clearInterval(xh1);
+            }
+            
 
 
 
-        }, 1000)
+        }
 
 
 
