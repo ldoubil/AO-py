@@ -14,7 +14,7 @@
             for (var i = 0; i < text.length; i++) {
                 b = text[i];
                 var c = new Array();
-                c = str.split(":");
+                c = b.split(":");
                 $('.inn-comment__item__body').each(
                     function () {
                         if ($(this).find(".inn-comment__item__label__role").text() == c[0]) {
