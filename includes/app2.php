@@ -4,7 +4,7 @@
     $(function () {
 
        
-        var xh1 = setInterval("RW_APP2()",500);
+        
        
 
         function RW_APP2() {
@@ -29,12 +29,12 @@
                 clearInterval(xh1);
             }
             
-
+            
 
 
         }
 
-
+        var xh1 = setInterval("RW_APP2()",500);
 
     })
 
