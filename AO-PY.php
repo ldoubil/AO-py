@@ -1,9 +1,9 @@
 <?php
 /*
 Plugin Name: AO-PY
-Plugin URI:	http://moeacg.xyz
+Plugin URI:	https://github.com/ldoubil/AO-py
 Description:  爱国Ao第三方扩展！。
-Version: 4.5.0
+Version: 4.5.1
 Author: 会做饭的二哈
 Author URI: mailto:baikaiwen12@outlook.com
 License: A "Slug" license name e.g. GPL2

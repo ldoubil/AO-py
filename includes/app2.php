@@ -8,7 +8,7 @@
             var text = new Array(); //哎当然先定义个数组
             // 在分割一下
             a = "<?php echo(get_option('AOPYCONFIG')['app2_A']);?>";
-            text = str.split(";");
+            text = a.split(";");
 
 
             for (var i = 0; i < text.length; i++) {
