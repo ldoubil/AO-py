@@ -1,17 +1,5 @@
 <script>
 
-$(function () {
-    if(IsMobile()){
-    $(".inn-widget__author-profile__container").children(".inn-widget__author-profile__avatar").remove();
-    $("#inn-widget__author-profile__info").remove();
-    $("#inn-widget__author-profile__point").remove();
-    $(".inn-widget__author-profile__container").attr("class","inn-widget__author");
-    $(".inn-widget,.inn-sidebar__widget,.inn-widget__author-profile").attr("class","inn-widget inn-sidebar__widget inn-widget__author");
-    var avatarhtml = $(".poi-g_lg-1-4").children(".inn-sidebar__item").prop("outerHTML");
-    $(".poi-g_lg-1-4").children(".inn-sidebar__item").remove();
-    $("#inn-comment").before(avatarhtml);
-}
-})
 
     //判断是否是手机
     function IsMobile() {
@@ -35,5 +23,28 @@ $(function () {
 
         return isMobile.any(); //是移动设备
     }
+    $(function () {
+        // undefined
+        function xh2() {
+            var ifundefined = $("#inn-widget__author-profile__count").find(".inn-widget__author-profile__count__item__number").first().text();
+            if (ifundefined != "undefined") {
+                if (IsMobile()) {
+                    $(".inn-widget__author-profile__container").children(".inn-widget__author-profile__avatar").remove();
+                    $("#inn-widget__author-profile__info").remove();
+                    $("#inn-widget__author-profile__point").remove();
+                    $(".inn-widget__author-profile__container").attr("class", "inn-widget__author");
+                    $(".inn-widget,.inn-sidebar__widget,.inn-widget__author-profile").attr("class", "inn-widget inn-sidebar__widget inn-widget__author");
+                    var avatarhtml = $(".poi-g_lg-1-4").children(".inn-sidebar__item").prop("outerHTML");
+                    $(".poi-g_lg-1-4").children(".inn-sidebar__item").remove();
+                    $("#inn-comment").before(avatarhtml);
+                }
+            }
+            clearInterval(xh2);
+        }
+
+
+        var xh2 = setInterval(APP2, 500);
+    })
+
 
 </script>
