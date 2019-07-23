@@ -21,6 +21,7 @@
       <li class="layui-this">AO-py</li>
       <li>首页模块关键词美化</li>
       <li>会员评论颜色</li>
+      <li>作者名片美化</li>
       <!--  <li>商品管理</li>
             <li>订单管理</li> -->
     </ul>

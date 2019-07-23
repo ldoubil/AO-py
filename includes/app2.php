@@ -2,11 +2,6 @@
 <script>
 
         $(function () {
-    
-    
-    
-    
-    
             function APP2() {
                 if ($('.inn-comment__container').length > 0) {
                     var text = new Array(); //哎当然先定义个数组
@@ -30,9 +25,6 @@
                 }else{
     // 				  console.log('监测中....');
                 }
-    
-    
-    
     
             }
     

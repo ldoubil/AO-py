@@ -1,8 +1,8 @@
 {
     "name" : "AO-py",
-    "version" : "4.5.6",
+    "version" : "4.5.7",
     "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-py.zip",
     "sections" : {
-        "description" : "要哦药切克，你问我更新了啥？更新了app3的界面，没错只有界面没有功能。"
+        "description" : "这次更新更新了app1和app2的加载速度，只有在制定页面才会进行加载。"
     }
 }
