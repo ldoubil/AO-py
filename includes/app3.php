@@ -25,7 +25,7 @@
     }
     $(function () {
         // undefined
-        function xh2() {
+        function app3() {
             var ifundefined = $("#inn-widget__author-profile__count").find(".inn-widget__author-profile__count__item__number").first().text();
             if (ifundefined != "undefined") {
                 if (IsMobile()) {
@@ -43,7 +43,7 @@
         }
 
 
-        var xh2 = setInterval(APP2, 500);
+        var xh2 = setInterval(APP3, 500);
     })
 
 
