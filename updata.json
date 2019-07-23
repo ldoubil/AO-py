@@ -1,6 +1,6 @@
 {
     "name" : "AO-py",
-    "version" : "4.5.8",
+    "version" : "4.5.9",
     "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-py.zip",
     "sections" : {
         "description" : "这次更新更新了app1和app2的加载速度，只有在制定页面才会进行加载。"
