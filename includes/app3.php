@@ -25,7 +25,7 @@
     }
     $(function () {
         // undefined
-        function app3() {
+        function APP3() {
             var ifundefined = $("#inn-widget__author-profile__count").find(".inn-widget__author-profile__count__item__number").first().text();
             if (ifundefined != "undefined") {
                 if (IsMobile()) {

@@ -3,7 +3,7 @@
 Plugin Name: AO-PY
 Plugin URI:	https://github.com/ldoubil/AO-py
 Description:  爱国Ao第三方扩展！。
-Version: 4.6.3
+Version: 4.6.5
 Author: 会做饭的二哈
 Author URI: mailto:baikaiwen12@outlook.com
 License: A "Slug" license name e.g. GPL2
