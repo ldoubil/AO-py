@@ -29,6 +29,7 @@
         <button onclick="bc()" type="button" class="layui-btn layui-btn-fluid">保存设置</button>
         <fieldset class="layui-elem-field layui-field-title" style="margin-top: 30px;">
           <legend>开发日程：</legend>
+          <h1>真男人从不写开发日志（妈的修改的频率太高了写不过来！）。。嘤嘤嘤去github看就知道了！<br>给我去听歌！</h1>
         </fieldset>
         <ul class="layui-timeline">
         <?php 
@@ -181,7 +182,68 @@
       
       
       </div>
-      <div class="layui-tab-item layui-anim layui-anim-upbit">内容4</div>
+      <div class="layui-tab-item layui-anim layui-anim-upbit">
+                                            <!-- 功能3 -->
+                                            <blockquote class="layui-elem-quote">
+                                              手机端作者资料优化。
+                                            </blockquote>
+                                            <blockquote class="layui-elem-quote">
+                                             哦对这功能不用介绍，反正开启就对了嗯哼！
+                                            </blockquote>
+
+                                            <form class="layui-form" action="">
+                                              <div class="layui-form-item">
+                                                <label style="
+                                                width: 110px;
+                                            " class="layui-form-label">模块开关：</label>
+                                                <div class="layui-input-block">
+                                                  <!-- <input type="checkbox" name="close" lay-skin="switch" lay-text="ON|OFF"> -->
+                                                  <input type="checkbox" id="app3" value="<?php echo(get_option('AOPYCONFIG')['app3']) ?>" lay-skin="switch"
+                                                    lay-filter="app3" lay-text="ON|OFF">
+                                                  <!-- open/close -->
+                                                </div>
+                                              </div>
+
+                                              
+
+                                            </form>
+
+                                            <script>
+                                              layui.use(['form', 'layedit', 'laydate'], function () {
+                                                var form = layui.form
+                                                  , layer = layui.layer
+                                                  , layedit = layui.layedit
+                                                  , laydate = layui.laydate;
+                                                //监听提交
+
+                                                if ($('#app3').val() == 'on') {
+                                                  $("#app3").prop("checked", true);
+                                                } else {
+                                                  $("#app3").prop("checked", false);
+                                                }
+
+
+                                                form.render();
+
+                                                form.on('switch(app3)', function (data) {
+                                                  if (this.checked) {
+                                                    $('#app3').val('on')
+                                                  } else {
+                                                    $('#app3').val('off')
+                                                  }
+
+                                                  layer.msg('作者资料手机端美化：' + (this.checked ? '开启' : '关闭'), {
+                                                    offset: '6px'
+                                                  });
+
+                                                });
+
+                                              });
+                                            </script>
+
+
+
+      </div>
       <div class="layui-tab-item layui-anim layui-anim-upbit">内容5</div>
     </div>
     <script>
@@ -194,7 +256,8 @@
         // alert("执行！");
         $.get('<?php echo( admin_url( "admin-ajax.php" )) ?>', 'action=AO-PY'+
         '&app1=' + $('#app1').val() + '&app1_A=' + $('#app1_A').val()+
-        '&app2=' + $('#app2').val() + '&app2_A=' + $('#app2_A').val(),
+        '&app2=' + $('#app2').val() + '&app2_A=' + $('#app2_A').val()+
+        '&app3=' + $('#app3').val(),
           function (data) {
             layer.open({
               title: '保存状态'
