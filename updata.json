@@ -1,7 +1,9 @@
 {
     "name" : "AO-py",
+
     "version" : "4.7.1",
-    "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-py.zip",
+    "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-PY.zip",
+
     "sections" : {
         "description" : "增加了授权和加密，菜单使用最简洁方便的样式。"
     }
