@@ -1,10 +1,10 @@
 {
     "name" : "AO-py",
 
-    "version" : "4.9.2",
+    "version" : "4.9.3",
     "download_url" : "https://github.com/ldoubil/AO-py/raw/master/AO-PY.zip",
 
     "sections" : {
-        "description" : "切换了皮肤库"
+        "description" : "本地化测试"
     }
 }
