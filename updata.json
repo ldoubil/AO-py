@@ -1,10 +1,10 @@
 {
     "name" : "AO-py",
 
-    "version" : "7.1.0",
+    "version" : "8.1.0",
     "download_url" : "http://api.moeacg.xyz/AO-PY.zip",
 
     "sections" : {
-        "description" : "优化了小bug小bug。彻底解决了一些毛病，就是bug！."
+        "description" : "修改标签！."
     }
 }
