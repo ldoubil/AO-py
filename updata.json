@@ -2,7 +2,7 @@
     "name" : "AO-py",
 
     "version" : "8.1.0",
-    "download_url" : "http://api.moeacg.xyz/AO-PY.zip",
+    "download_url" : "https://api.moeacg.xyz/AO-py.zip",
 
     "sections" : {
         "description" : "修改标签！."
